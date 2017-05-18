@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ChrisChatCom
+  host: ChrisChatCom
+  disk_quota: 1024M
+  services:
+  - Conversation-l9
+  env:
+    'WEATHER_KEY ': 5aa2ca764b80f41a
